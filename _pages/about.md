@@ -8,6 +8,9 @@ redirect_from:
   - /about.html
 ---
 
+![science](https://user-images.githubusercontent.com/66810984/190895653-891672a6-863c-4288-9bce-a649ecf6743b.gif)
+
+
 <video src="https://user-images.githubusercontent.com/66810984/190894744-0d791606-376b-4884-a9f0-c6c2ca14d499.mp4" autoplay="true" loop="loop" muted="muted" controls="controls" style="max-width: 730px;">
 </video>
 

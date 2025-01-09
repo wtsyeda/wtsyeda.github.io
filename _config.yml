@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Dr Warda Taqdees Syeda"
+title                    : "Warda T Syeda"
 title_separator          : "-"
-name                     : &name "Warda Syeda"
+name                     : &name "Warda T Syeda"
 description              : &description "Professorial Fellow"
 url                      : https://wtsyeda.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"

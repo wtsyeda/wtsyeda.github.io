@@ -13,4 +13,3 @@ citation: 'Maleki, S., Hendrikse, J., Richardson, K., Segrave, R.A., Hughes, S.,
 
 [Download paper here](https://www.nature.com/articles/s41398-024-03150-0)
 
-Recommended citation: Maleki, S., Hendrikse, J., Richardson, K., Segrave, R.A., Hughes, S., Kayayan, E., Oldham, S., Syeda, W., Coxon, J.P., Caeyenberghs, K. and Domínguez D, J.F., 2024. White matter alterations associated with chronic cannabis use disorder: a structural network and fixel-based analysis. Translational Psychiatry, 14(1), p.429.

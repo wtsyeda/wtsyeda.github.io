@@ -1,15 +1,14 @@
 ---
-title: "Paper Title Number 3"
+title: "Structural and functional connectivity in relation to executive functions in antipsychotic-naïve patients with first episode schizophrenia."
 collection: publications
 permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
+excerpt: 'This study examines the relationship between structural and functional brain connectivity and executive function impairments in antipsychotic-naïve patients with first-episode schizophrenia. Findings reveal group-specific interactions between cognitive flexibility, planning abilities, and connectivity in key brain regions, highlighting distinct neural mechanisms underlying executive dysfunction in schizophrenia.'
 date: 2015-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+venue: 'Schizophrenia'
+paperurl: '(https://www.nature.com/articles/s41537-024-00487-9)'
+citation: 'Kristensen, T.D., Ambrosen, K.S., Raghava, J.M., Syeda, W.T., Dhollander, T., Lemvigh, C.K., Bojesen, K.B., Barber, A.D., Nielsen, M.Ø., Rostrup, E. and Pantelis, C., 2024. Structural and functional connectivity in relation to executive functions in antipsychotic-naïve patients with first episode schizophrenia. Schizophrenia, 10(1), p.72'
 ---
-This paper is about the number 3. The number 4 is left for future work.
+<b> Abstract </b> This study examines the relationship between structural and functional brain connectivity and executive function impairments in antipsychotic-naïve patients with first-episode schizophrenia. Findings reveal group-specific interactions between cognitive flexibility, planning abilities, and connectivity in key brain regions, highlighting distinct neural mechanisms underlying executive dysfunction in schizophrenia.
 
-[Download paper here](http://academicpages.github.io/files/paper3.pdf)
+[Download paper here](https://www.nature.com/articles/s41537-024-00487-9)
 
-Recommended citation: Your Name, You. (2015). "Paper Title Number 3." <i>Journal 1</i>. 1(3).

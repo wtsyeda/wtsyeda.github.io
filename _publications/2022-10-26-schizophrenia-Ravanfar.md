@@ -2,7 +2,7 @@
 title: "In Vivo 7-Tesla MRI investigation of brain iron and its metabolic correlates in chronic schizophrenia"
 collection: publications
 permalink: /publication/
-excerpt: ''
+excerpt: 'This study used 7-Tesla MRI and spectroscopy to reveal increased iron in the putamen and metabolic disturbances in the anterior cingulate cortex in chronic schizophrenia. Findings highlight network-wide disruptions in iron and metabolic status, suggesting links to oxidative stress and gray matter reduction.'
 date: 2022-10-26
 venue: 'Schizophrenia'
 paperurl: '(https://www.nature.com/articles/s41537-022-00293-1)'

@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "Publications"
-    url: /publications/
+    url: https://scholar.google.com/citations?user=6PNAR0EAAAAJ&hl=en&oi=ao #/publications/
 
   - title: "Supervision"
     url: /supervision/    

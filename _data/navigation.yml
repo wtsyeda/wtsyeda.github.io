@@ -9,11 +9,11 @@ main:
   - title: "Supervision"
     url: /supervision/    
 
- # - title: "Teaching"
-  #  url: /teaching/    
-
   - title: "Projects"
     url: /projects/
+
+ # - title: "Teaching"
+  #  url: /teaching/    
         
   - title: "Blog Posts"
     url: /year-archive/

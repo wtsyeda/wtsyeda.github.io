@@ -14,6 +14,6 @@ author_profile: true
     </p>
   </div>
   <div>
-    <img src="/images/warda_DoP_2024.jpeg" alt="Warda presenting her work" style="height: auto; max-width: 200px; vertical-align: top;">
+    <img src="/images/warda_DoP_2024.jpeg" alt="Warda presenting her work" style="height: auto; max-width: 150px; vertical-align: top;">
   </div>
 </div>

@@ -18,3 +18,15 @@ author_profile: true
     <img src="/images/warda_DoP_2024.jpeg" alt="Warda presenting her work" style="height: 100%; max-width: 200px; object-fit: cover;">
   </div>
 </div>
+
+# News and Updates
+
+| **![ISMIRM ANZ Chapter Logo](https://via.placeholder.com/100x50)** | **MBCIU at ISMRM ANZ 2024**                                      | **12 Dec 2024** |
+|--------------------------------------------------------------------|------------------------------------------------------------------|-----------------|
+| MBCIU activities at the ISMRM ANZ 2024 Annual Meeting.             |                                                                  |                 |
+
+| **![VBIC Meeting Banner](https://via.placeholder.com/100x50)**     | **VBIC 2024 Annual Network Meeting**                             | **02 Nov 2024** |
+|--------------------------------------------------------------------|------------------------------------------------------------------|-----------------|
+| MBIO contributions at VBIC Annual meeting                          | 
+
+For similar alignment you can. Rows might be suit.

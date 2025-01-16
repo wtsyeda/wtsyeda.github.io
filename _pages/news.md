@@ -46,7 +46,7 @@ author_profile: true
 <body>
     <div class="container">
         <div class="photo">
-            <img src="/images/warda_DoP_2024.jpeg" alt="Warda Syeda presenting at the symposium">
+            <img src="/images/warda_DoP_2024.jpeg" alt="Warda Syeda presenting at the symposium" width="200" height="400">
         </div>
         <div class="text">
             <h2>December 2024: EOY Symposium Presentation</h2>

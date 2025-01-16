@@ -1,5 +1,5 @@
 ---
-title: "Cognitive profiles across the psychosis continuum"
+title: "Cognitive profiles across the psychosis continuum100"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'This study employs self-organizing maps, a machine learning technique, to identify six distinct cognitive profiles across the psychosis continuum, encompassing healthy controls, ultra-high-risk individuals, and first-episode psychosis patients. These profiles, driven by cognitive flexibility and executive functions, predict functional outcomes and highlight the potential of data-driven approaches for personalized treatment and cross-diagnostic research.'

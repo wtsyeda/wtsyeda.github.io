@@ -21,6 +21,6 @@ author_profile: true
     </div>
     <div style="flex-shrink: 0; margin-left: 20px;">
         <img src="/images/warda_DoP_2024.jpeg" alt="Warda Syeda presenting at the symposium" 
-             style="width: 200px; height: auto; border-radius: 8px;">
+             style="width: 150px; height: auto; border-radius: 8px;">
     </div>
 </div>

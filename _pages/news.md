@@ -5,34 +5,7 @@ permalink: /news/
 author_profile: true
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Warda Syeda - News</title>
-    <style>
-        .container {
-            display: flex;
-            align-items: flex-start;
-            margin: 20px;
-            font-family: Arial, sans-serif;
-        }
-        .photo {
-            margin-right: 20px;
-        }
-        .photo img {
-            max-width: 150px;
-            height: auto;
-            border-radius: 8px;
-        }
-        .text {
-            max-width: 600px;
-            line-height: 1.6;
-        }
-    </style>
-</head>
-<body>
+
     <div class="container">
         <div class="text">
             <h2>December 2024: EOY Symposium Presentation</h2>
@@ -42,7 +15,7 @@ author_profile: true
             <img src="/images/warda_DoP_2024.jpeg" alt="Warda Syeda presenting at the symposium" width="200" height="400">
         </div>
     </div>
-</body>
-</html>
+
+
 
 

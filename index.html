@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Protected Page</title>
+    <script>
+        function checkPassword() {
+            var password = prompt("Enter the password:");
+            if (password !== "mypassword") {
+                alert("Incorrect password. Access denied.");
+                window.location = "https://google.com"; // Redirect if wrong password
+            }
+        }
+    </script>
+</head>
+<body onload="checkPassword()">
+    <h1>Welcome to my protected site</h1>
+    <p>This content is only accessible if you enter the correct password.</p>
+</body>
+</html>

@@ -1,19 +1,217 @@
-<!DOCTYPE html>
-<html>
+---
+layout: null
+title: Dr Warda T. Syeda
+---
+<!doctype html>
+<html lang="en">
 <head>
-    <title>Protected Page</title>
-    <script>
-        function checkPassword() {
-            var password = prompt("Enter the password:");
-            if (password !== "mypassword") {
-                alert("Incorrect password. Access denied.");
-                window.location = "https://google.com"; // Redirect if wrong password
-            }
-        }
-    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dr Warda T. Syeda is a neuroimaging and NeuroAI researcher developing explainable, clinically meaningful tools for precision mental health.">
+  <meta name="theme-color" content="#102f36">
+  <title>Dr Warda T. Syeda | Neuroimaging & NeuroAI Researcher</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Caslon+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
+  <script defer src="{{ '/script.js' | relative_url }}"></script>
 </head>
-<body onload="checkPassword()">
-    <h1>Welcome to my protected site</h1>
-    <p>This content is only accessible if you enter the correct password.</p>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <div class="nav-wrap">
+      <a class="brand" href="#top" aria-label="Warda Syeda home">
+        <span class="brand-mark">WS</span>
+        <span>Warda Syeda</span>
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Open navigation</span>
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#publications">Publications</a>
+        <a href="#leadership">Leadership</a>
+        <a class="nav-contact" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-orb orb-one"></div>
+      <div class="hero-orb orb-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Neuroimaging · NeuroAI · Precision Mental Health</p>
+          <h1>Dr Warda T. Syeda</h1>
+          <p class="hero-lead">I develop rigorous, explainable methods that turn complex brain and clinical data into insights that matter for people.</p>
+          <p class="hero-role">Research Fellow, Melbourne Brain Centre Imaging Unit<br>The University of Melbourne</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#research">Explore my research</a>
+            <a class="button secondary" href="https://scholar.google.com.au/citations?user=6PNAR0EAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="profile-links" aria-label="Research profiles">
+            <a href="https://orcid.org/0000-0001-6294-622X" target="_blank" rel="noopener">ORCID</a>
+            <a href="https://github.com/wtsyeda" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/warda-syeda-4b69119a/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Warda+Syeda" target="_blank" rel="noopener">PubMed</a>
+          </div>
+        </div>
+        <div class="portrait-wrap reveal">
+          <div class="portrait-frame">
+            <img src="{{ '/Warda.jpeg' | relative_url }}" alt="Dr Warda T. Syeda" width="560" height="680">
+          </div>
+          <div class="portrait-note">
+            <span>Based in</span>
+            <strong>Melbourne, Australia</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section intro" id="about">
+      <div class="container split">
+        <div>
+          <p class="section-kicker">About</p>
+          <h2>Bridging imaging science, computation and clinical translation.</h2>
+        </div>
+        <div class="prose">
+          <p>I am a biomedical engineer and neuroimaging researcher working at the intersection of advanced MRI, machine learning and mental health. My research asks how we can make individual-level predictions that are scientifically robust, clinically interpretable and genuinely useful.</p>
+          <p>At the Melbourne Brain Centre Imaging Unit, I contribute to multidisciplinary research spanning psychiatric neuroimaging, healthy ageing, exercise neuroscience and imaging informatics. I also serve as a National Imaging Facility Informatics Fellow, supporting reproducible analysis and research capability across the imaging community.</p>
+          <div class="stat-row">
+            <div><strong>30+</strong><span>Peer-reviewed publications</span></div>
+            <div><strong>7T</strong><span>Advanced MRI expertise</span></div>
+            <div><strong>10+</strong><span>Students supervised</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tinted" id="research">
+      <div class="container">
+        <p class="section-kicker">Research themes</p>
+        <div class="section-heading">
+          <h2>From complex data to clinically meaningful evidence.</h2>
+          <p>My work combines methodological depth with a focus on interpretation, reproducibility and real-world translation.</p>
+        </div>
+        <div class="card-grid three">
+          <article class="research-card reveal">
+            <span class="card-number">01</span>
+            <h3>Precision mental health</h3>
+            <p>Individual-level modelling of psychiatric heterogeneity, clinical trajectories and outcomes using explainable similarity-based approaches.</p>
+          </article>
+          <article class="research-card reveal">
+            <span class="card-number">02</span>
+            <h3>Advanced neuroimaging</h3>
+            <p>Multimodal MRI methods spanning structural, diffusion, functional and quantitative imaging, including ultra-high-field 7T MRI.</p>
+          </article>
+          <article class="research-card reveal">
+            <span class="card-number">03</span>
+            <h3>Reproducible NeuroAI</h3>
+            <p>Transparent pipelines, quality control and responsible computational methods designed to generalise across people, studies and sites.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <p class="section-kicker">Selected programmes</p>
+        <div class="project-list">
+          <article class="project reveal">
+            <div class="project-meta"><span>Lead programme</span><span>Precision psychiatry</span></div>
+            <div>
+              <h3>Affinity Scores</h3>
+              <p>An explainable framework that represents each person by how strongly they resemble clinically meaningful reference populations—and reveals which features drive that resemblance. The programme extends from cross-sectional profiling to longitudinal trajectories and clinical decision support.</p>
+              <ul class="tags"><li>Explainable AI</li><li>Psychosis</li><li>Longitudinal modelling</li><li>Clinical translation</li></ul>
+            </div>
+          </article>
+          <article class="project reveal">
+            <div class="project-meta"><span>7T MRI</span><span>Exercise neuroscience</span></div>
+            <div>
+              <h3>Train Smart</h3>
+              <p>A multimodal imaging programme investigating how exercise influences brain health. My work covers reproducible processing and quality control across structural MRI, diffusion MRI, resting-state fMRI, arterial spin labelling and white-matter hyperintensities.</p>
+              <ul class="tags"><li>Healthy ageing</li><li>Exercise</li><li>Multimodal MRI</li><li>Imaging pipelines</li></ul>
+            </div>
+          </article>
+          <article class="project reveal">
+            <div class="project-meta"><span>Multi-site</span><span>Quantitative MRI</span></div>
+            <div>
+              <h3>WIRED QSM</h3>
+              <p>Collaborative quantitative susceptibility mapping research focused on robust processing and analysis of brain iron and tissue susceptibility across large imaging cohorts.</p>
+              <ul class="tags"><li>QSM</li><li>Brain iron</li><li>Harmonisation</li><li>Multi-site science</li></ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark" id="publications">
+      <div class="container">
+        <p class="section-kicker">Selected publications</p>
+        <div class="section-heading">
+          <h2>Research outputs</h2>
+          <p>Selected work from the publication archive. For a complete and current record, visit Google Scholar or PubMed.</p>
+        </div>
+        <div class="publication-list">
+          {% assign sorted_publications = site.publications | sort: 'date' | reverse %}
+          {% for post in sorted_publications limit: 6 %}
+          <article class="publication">
+            <span class="pub-year">{{ post.date | date: "%Y" }}</span>
+            <div>
+              <h3>{% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ post.title }}</a>{% else %}<a href="{{ post.url | relative_url }}">{{ post.title }}</a>{% endif %}</h3>
+              {% if post.citation %}<p>{{ post.citation }}</p>{% elsif post.venue %}<p>{{ post.venue }}</p>{% endif %}
+            </div>
+          </article>
+          {% endfor %}
+          {% if site.publications.size == 0 %}
+          <article class="publication">
+            <span class="pub-year">2026</span>
+            <div><h3>Individual profiling across the psychosis continuum using Affinity Scores</h3><p>Research on interpretable, individual-level characterisation of clinical heterogeneity.</p></div>
+          </article>
+          {% endif %}
+        </div>
+        <a class="text-link light" href="https://scholar.google.com.au/citations?user=6PNAR0EAAAAJ&hl=en" target="_blank" rel="noopener">View all publications on Google Scholar <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="section" id="leadership">
+      <div class="container split">
+        <div>
+          <p class="section-kicker">Leadership & contribution</p>
+          <h2>Building capability, community and better research practice.</h2>
+        </div>
+        <div class="leadership-grid">
+          <article><h3>Research leadership</h3><p>Leading interdisciplinary work in explainable NeuroAI and precision mental health, from method development through clinical validation.</p></article>
+          <article><h3>Imaging informatics</h3><p>Supporting scalable, reproducible neuroimaging through the National Imaging Facility and the Melbourne Brain Centre Imaging Unit.</p></article>
+          <article><h3>Supervision & teaching</h3><p>Supervising graduate researchers across biomedical engineering, neuroimaging and computational mental health, and teaching data science.</p></article>
+          <article><h3>Scientific service</h3><p>Contributing to early- and mid-career researcher development and the MRI community through local, national and international networks.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner reveal">
+        <p class="section-kicker">Connect</p>
+        <h2>Let’s build research that is rigorous, interpretable and useful.</h2>
+        <p>I welcome conversations about neuroimaging, NeuroAI, precision mental health, reproducible methods and interdisciplinary collaboration.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="https://www.linkedin.com/in/warda-syeda-4b69119a/" target="_blank" rel="noopener">Connect on LinkedIn</a>
+          <a class="button secondary" href="https://orcid.org/0000-0001-6294-622X" target="_blank" rel="noopener">View ORCID</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Dr Warda T. Syeda</p>
+      <p>Neuroimaging · NeuroAI · Precision Mental Health</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
 </body>
 </html>

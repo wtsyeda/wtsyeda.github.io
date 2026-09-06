@@ -11,7 +11,7 @@ function closeMenu() {
   menuButton?.setAttribute('aria-expanded', 'false');
 }
 
-menuButton?.addEventListener('('click', () => {
+menuButton?.addEventListener('click', () => {
   const opening = !nav?.classList.contains('open');
   nav?.classList.toggle('open', opening);
   menuButton.setAttribute('aria-expanded', String(opening));

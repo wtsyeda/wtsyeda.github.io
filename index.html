@@ -29,6 +29,7 @@ title: Dr Warda T. Syeda
         <span></span><span></span><span></span>
       </button>
       <nav id="site-nav" aria-label="Primary navigation">
+        <a href="#now">Now</a>
         <a href="#about">About</a>
         <a href="#research">Research</a>
         <a href="#projects">Projects</a>
@@ -69,6 +70,30 @@ title: Dr Warda T. Syeda
             <strong>Melbourne, Australia</strong>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section class="now-strip" id="now" aria-labelledby="now-title">
+      <div class="container now-grid">
+        <div>
+          <p class="section-kicker">Now · 2026</p>
+          <h2 id="now-title">What I’m working on</h2>
+        </div>
+        <article>
+          <span>01</span>
+          <h3>Longitudinal Affinity Scores</h3>
+          <p>Extending individual clinical fingerprints from a single time point to interpretable trajectories.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Clinical validation</h3>
+          <p>Working with clinicians to define focused, useful applications for explainable precision mental health.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Reproducible imaging</h3>
+          <p>Building robust multimodal MRI workflows and quality-control practices for collaborative research.</p>
+        </article>
       </div>
     </section>
 
@@ -121,8 +146,8 @@ title: Dr Warda T. Syeda
       <div class="container">
         <p class="section-kicker">Selected programmes</p>
         <div class="project-list">
-          <article class="project reveal">
-            <div class="project-meta"><span>Lead programme</span><span>Precision psychiatry</span></div>
+          <article class="project reveal featured-project">
+            <div class="project-meta"><span>Lead programme</span><span>Precision psychiatry</span><strong>Explainable individual profiles</strong></div>
             <div>
               <h3>Affinity Scores</h3>
               <p>An explainable framework that represents each person by how strongly they resemble clinically meaningful reference populations—and reveals which features drive that resemblance. The programme extends from cross-sectional profiling to longitudinal trajectories and clinical decision support.</p>
@@ -149,6 +174,27 @@ title: Dr Warda T. Syeda
       </div>
     </section>
 
+    <section class="section resources" id="resources">
+      <div class="container">
+        <p class="section-kicker">Open research</p>
+        <div class="section-heading">
+          <h2>Methods people can inspect, use and build on.</h2>
+          <p>A good research website should be more than a record. These links connect the ideas to publications, code and reusable technical work.</p>
+        </div>
+        <div class="resource-grid">
+          <a class="resource-card reveal" href="https://github.com/wtsyeda" target="_blank" rel="noopener">
+            <span>Code</span><h3>GitHub repositories</h3><p>Analysis workflows, research software and reproducible technical resources.</p><b>Explore GitHub ↗</b>
+          </a>
+          <a class="resource-card reveal" href="https://scholar.google.com.au/citations?user=6PNAR0EAAAAJ&hl=en" target="_blank" rel="noopener">
+            <span>Evidence</span><h3>Research record</h3><p>Peer-reviewed work across neuroimaging, computational methods and mental health.</p><b>Google Scholar ↗</b>
+          </a>
+          <a class="resource-card reveal" href="https://orcid.org/0000-0001-6294-622X" target="_blank" rel="noopener">
+            <span>Identity</span><h3>ORCID profile</h3><p>A persistent record of affiliations and research contributions.</p><b>View ORCID ↗</b>
+          </a>
+        </div>
+      </div>
+    </section>
+
     <section class="section dark" id="publications">
       <div class="container">
         <p class="section-kicker">Selected publications</p>
@@ -164,6 +210,11 @@ title: Dr Warda T. Syeda
             <div>
               <h3>{% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ post.title }}</a>{% else %}<a href="{{ post.url | relative_url }}">{{ post.title }}</a>{% endif %}</h3>
               {% if post.citation %}<p>{{ post.citation }}</p>{% elsif post.venue %}<p>{{ post.venue }}</p>{% endif %}
+              <div class="pub-resources">
+                {% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank" rel="noopener">Paper ↗</a>{% endif %}
+                {% if post.codeurl %}<a href="{{ post.codeurl }}" target="_blank" rel="noopener">Code ↗</a>{% endif %}
+                <a href="{{ post.url | relative_url }}">Details</a>
+              </div>
             </div>
           </article>
           {% endfor %}
@@ -209,6 +260,7 @@ title: Dr Warda T. Syeda
   <footer>
     <div class="container footer-inner">
       <p>© <span id="year"></span> Dr Warda T. Syeda</p>
+      <p>Last updated September 2026</p>
       <p>Neuroimaging · NeuroAI · Precision Mental Health</p>
       <a href="#top">Back to top ↑</a>
     </div>

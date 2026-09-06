@@ -99,20 +99,28 @@ title: Dr Warda T. Syeda
 
       <section id="publications">
         <h2>Selected publications</h2>
-        <p>Selected entries from my publication archive are shown below. My complete and current publication record is available on <a href="https://scholar.google.com.au/citations?user=6PNAR0EAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a> and <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Warda+Syeda" target="_blank" rel="noopener">PubMed</a>.</p>
+        <p>This selection highlights publications where I am first author or senior/last author. My complete publication record is available on <a href="https://scholar.google.com.au/citations?user=6PNAR0EAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a> and <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Warda+Syeda" target="_blank" rel="noopener">PubMed</a>.</p>
         <div class="publication-list">
-          {% assign sorted_publications = site.publications | sort: 'date' | reverse %}
-          {% for post in sorted_publications limit: 8 %}
           <article class="publication">
-            <h3>{% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ post.title }}</a>{% else %}<a href="{{ post.url | relative_url }}">{{ post.title }}</a>{% endif %}</h3>
-            <p>{% if post.citation %}{{ post.citation }}{% elsif post.venue %}{{ post.venue }}{% endif %}{% if post.date %} ({{ post.date | date: "%Y" }}){% endif %}</p>
-            <div class="entry-links">
-              {% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank" rel="noopener">Paper</a>{% endif %}
-              {% if post.codeurl %}<a href="{{ post.codeurl }}" target="_blank" rel="noopener">Code</a>{% endif %}
-              <a href="{{ post.url | relative_url }}">Details</a>
-            </div>
+            <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42238477/" target="_blank" rel="noopener">Quantitative susceptibility mapping demonstrates ageing-related long-term structural brain changes in adult rats after mild ischaemic stroke</a></h3>
+            <p>Z. Tao, C. M. Ermine, D. K. Wright, et al., <strong>W. T. Syeda</strong>. <em>Brain Communications</em>, 2026. Senior/last author.</p>
+            <div class="entry-links"><a href="https://doi.org/10.1093/braincomms/fcag182" target="_blank" rel="noopener">Paper</a><a href="https://pubmed.ncbi.nlm.nih.gov/42238477/" target="_blank" rel="noopener">PubMed</a></div>
           </article>
-          {% endfor %}
+          <article class="publication">
+            <h3><a href="https://link.springer.com/article/10.1186/s40337-023-00870-4" target="_blank" rel="noopener">Investigation of brain iron in anorexia nervosa: a quantitative susceptibility mapping study</a></h3>
+            <p>P. Ravanfar, R. J. Rushmore, A. E. Lyall, et al., <strong>W. T. Syeda</strong>, A. Phillipou. <em>Journal of Eating Disorders</em>, 2023. Joint senior author.</p>
+            <div class="entry-links"><a href="https://doi.org/10.1186/s40337-023-00870-4" target="_blank" rel="noopener">Paper</a><a href="https://pubmed.ncbi.nlm.nih.gov/37605216/" target="_blank" rel="noopener">PubMed</a></div>
+          </article>
+          <article class="publication">
+            <h3><a href="https://academic.oup.com/braincomms/article/4/4/fcac185/6648528" target="_blank" rel="noopener">Long-term structural brain changes in adult rats after mild ischaemic stroke</a></h3>
+            <p><strong>W. Syeda</strong>, C. M. Ermine, M. S. Khlif, et al. <em>Brain Communications</em>, 2022. First author.</p>
+            <div class="entry-links"><a href="https://doi.org/10.1093/braincomms/fcac185" target="_blank" rel="noopener">Paper</a><a href="https://pubmed.ncbi.nlm.nih.gov/35898722/" target="_blank" rel="noopener">PubMed</a></div>
+          </article>
+          <article class="publication">
+            <h3><a href="https://pubmed.ncbi.nlm.nih.gov/35945206/" target="_blank" rel="noopener">Affinity scores: an individual-centric fingerprinting framework for clinical heterogeneity</a></h3>
+            <p>C. M. J. Wannan, M. A. Di Biase, J. M. Raghava, et al., <strong>W. T. Syeda</strong>. <em>Schizophrenia</em>, 2022. Senior/last author.</p>
+            <div class="entry-links"><a href="https://pubmed.ncbi.nlm.nih.gov/35945206/" target="_blank" rel="noopener">Paper</a><a href="https://pubmed.ncbi.nlm.nih.gov/35945206/" target="_blank" rel="noopener">PubMed</a></div>
+          </article>
         </div>
       </section>
 
